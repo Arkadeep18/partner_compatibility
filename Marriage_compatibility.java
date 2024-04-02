@@ -7,21 +7,7 @@ public class Marriage_compatibility {
 		String My_zdc= sc.next().toLowerCase();
 		System.out.println("Enter your partner's zodiac sign");
 		String Partner_zdc = sc.next().toLowerCase();
-
-		//		String Aries = "Aries";
-		//		String Taurus = "Taurus";
-		//		String Gemini = "Gemini";
-		//		String Cancer = "Cancer";
-		//		String Leo = "Leo";
-		//		String Virgo = "Virgo";
-		//		String Libra = "Libra";
-		//		String Scorpio = "Scorpio";
-		//		String Sagittarius = "Sagittarius";
-		//		String Capricorn = "Capricorn";
-		//		String Aquarius = "Aquarius";
-		//		String Pisces = "Pisces";
-				
-
+		
 		switch(My_zdc) {
 		case "aries": {
 			if(Partner_zdc.equals("Gemini")||Partner_zdc.equals("sagittarious")||Partner_zdc.equals("leo")) {
